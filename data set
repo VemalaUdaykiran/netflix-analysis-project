@@ -1,0 +1,58 @@
+📂 About the Dataset 
+📘 Netflix Movies & TV Shows Dataset
+
+This project uses the Netflix Titles Dataset from Kaggle, which contains information about Movies and TV Shows available on Netflix.
+
+🔗 Dataset Source:
+https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+📑 Dataset Description
+
+| Column           | Description                                 |
+| ---------------- | ------------------------------------------- |
+| **show_id**      | Unique ID for every title                   |
+| **type**         | Movie or TV Show                            |
+| **title**        | Name of the content                         |
+| **director**     | Director(s) of the title                    |
+| **cast**         | Actors involved                             |
+| **country**      | Country of production                       |
+| **date_added**   | When the title was added to Netflix         |
+| **release_year** | Year of original release                    |
+| **rating**       | Age rating (TV-MA, PG, etc.)                |
+| **duration**     | Movie length (minutes) or number of seasons |
+| **listed_in**    | Genre(s)                                    |
+| **description**  | Summary of the content                      |
+
+📊 Why This Dataset Is Useful for Analysis
+
+This dataset is widely used in data analytics because:
+
+It includes both numeric and text data
+
+It has missing values, which is good for practicing data cleaning
+
+You can perform EDA (Exploratory Data Analysis) on:
+
+genres
+
+countries
+
+movies vs TV shows
+
+release years
+
+content growth
+
+It’s suitable for building visualizations
+
+🧹 Common Data Cleaning Tasks in This Dataset
+
+Filling missing values (director, cast, country)
+
+Converting date_added to datetime
+
+Splitting genres from the listed_in field
+
+Extracting new features (year_added, main_genre)
+
+Removing duplicates
