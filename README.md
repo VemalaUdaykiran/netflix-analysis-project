@@ -86,23 +86,4 @@ Matplotlib / Seaborn
 
 Jupyter Notebook
 
-🚀 How to Run This Project
 
-Clone the repository:
-
-git clone https://github.com/<username>/<repo-name>.git
-
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Open the notebook:
-
-jupyter notebook netflix.ipynb
-
-📌 Project Summary
-
-This project transforms a raw Netflix dataset into a clean, consistent, and analysis-ready dataset.
-It provides insights into Netflix content trends, genres, ratings, and global distribution.
